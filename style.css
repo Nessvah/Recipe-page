@@ -82,7 +82,6 @@ body {
   font-family: "Montserrat", sans-serif;
   color: var(--black-text);
   line-height: 24px;
-  font-size: 1.4rem;
 }
 
 h1,
@@ -109,9 +108,12 @@ h3 {
   line-height: 22px;
 }
 
-p {
-  font-size: 1.8rem;
-  line-height: 18px;
+label {
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+  display: inline-block;
+  font-family: "Montserrat", sans-serif;
+  color: var(--black-text);
 }
 
 ol {
@@ -154,8 +156,12 @@ input {
 /* INGREDIENTS AND INSTRUCTIONS */
 
 input[type="checkbox"] {
+  position: absolute;
+}
+input[type="checkbox"] ~ label {
+  display: inline-block;
+  padding-left: 3.5rem;
   vertical-align: middle;
-  position: relative;
 }
 
 input[type="checkbox"] {
@@ -167,4 +173,8 @@ input[type="checkbox"] {
 }
 .checkbox:checked + label {
   text-decoration: line-through;
+}
+
+.checkboxes {
+  margin: 1.2rem auto 1.4rem auto;
 }
