@@ -82,6 +82,7 @@ body {
   font-family: "Montserrat", sans-serif;
   color: var(--black-text);
   line-height: 24px;
+  font-size: 1.4rem;
 }
 
 h1,
@@ -108,9 +109,18 @@ h3 {
   line-height: 22px;
 }
 
+p {
+  font-size: 1.8rem;
+  line-height: 18px;
+}
+
 ol {
   padding: 0;
   margin: 12px;
+}
+
+input {
+  line-height: 2.4rem;
 }
 .subtitle {
   color: var(--dark-gray-body);
@@ -139,4 +149,22 @@ ol {
 .italic--text {
   font-style: italic;
   font-weight: 500;
+}
+
+/* INGREDIENTS AND INSTRUCTIONS */
+
+input[type="checkbox"] {
+  vertical-align: middle;
+  position: relative;
+}
+
+input[type="checkbox"] {
+  border: 2px solid var(--dark-gray-headline);
+  border-radius: 4px;
+  cursor: pointer;
+  width: 22px;
+  height: 22px;
+}
+.checkbox:checked + label {
+  text-decoration: line-through;
 }
