@@ -70,8 +70,14 @@ img {
   max-width: 100%;
 }
 
-/* FONT COLORS AND FONT FAMILY */
+/* COLORS */
 
 :root {
-  --black-color: #000;
+  --black-text: #000;
+  --dark-gray-headline: #4f4f4f;
+  --dark-gray-body: #333333;
+  --ligh-gray: #bdbdbd;
+  --orange-text: #f2994a;
 }
+
+/* GENERAL */
