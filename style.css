@@ -59,12 +59,7 @@ header {
 a {
   cursor: revert;
 }
-/* Remove list styles (bullets/numbers) */
-ol,
-ul,
-menu {
-  list-style: none;
-}
+
 /* For images to not be able to exceed their container */
 img {
   max-width: 100%;
@@ -86,6 +81,7 @@ body {
   margin: 32px 12px 32px 12px;
   font-family: "Montserrat", sans-serif;
   color: var(--black-text);
+  line-height: 24px;
 }
 
 h1,
@@ -112,6 +108,10 @@ h3 {
   line-height: 22px;
 }
 
+ol {
+  padding: 0;
+  margin: 12px;
+}
 .subtitle {
   color: var(--dark-gray-body);
   line-height: 14px;
