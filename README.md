@@ -39,6 +39,7 @@ Solution for a challenge from [Devchallenges.io](http://devchallenges.io)
 
 - HTML
 - CSS
+- RESPONSIVE DESIGN
 - FIGMA
 
 ## Features
@@ -47,12 +48,11 @@ Solution for a challenge from [Devchallenges.io](http://devchallenges.io)
 
 This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/TtUjDt19eIHxNQ4n5jps) was to build an application to complete the following user stories:
 
-- [x] User story: This is a completed user stories
-- [ ] User story: This is a incompleted user stories
-- [ ] User story: This is a incompleted 2nd user stories
+- [x] User story: I can see a recipe with ingredients and instructions
+- [x] User story: I can select a checkbox if I have the ingredients
+- [x] User story: I can see the number of servings, baking times
 
 ## Contact
 
-- Website [your-website.com](https://{your-web-site-link})
-- GitHub [@your-username](https://{github.com/your-usermame})
-- Twitter [@your-twitter](https://{twitter.com/your-username})
+- GitHub [@nessvah](https://github.com/nessvah})
+- Twitter [@nessvah\_](https://twitter.com/nessvah_)
