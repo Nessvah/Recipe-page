@@ -106,6 +106,7 @@ h3 {
   font-style: italic;
   font-size: 1.6rem;
   line-height: 22px;
+  color: var(--dark-gray-body);
 }
 
 label {
@@ -113,7 +114,7 @@ label {
   line-height: 2.4rem;
   display: inline-block;
   font-family: "Montserrat", sans-serif;
-  color: var(--black-text);
+  color: var(--dark-gray-body);
 }
 
 ol {
@@ -175,8 +176,70 @@ input {
   font-weight: 500;
 }
 
+.ingredients--heading {
+  margin: 3rem auto 1.4rem auto;
+}
+
+.main--checkboxes {
+  margin: 2.4rem auto 3rem auto;
+}
+
+.recipe--heading {
+  margin: 4rem auto 3rem auto;
+}
+
 /* INGREDIENTS AND INSTRUCTIONS */
 
+.instructions--heading > h2 {
+  color: var(--dark-gray-body);
+  font-size: 2.4rem;
+  line-height: 3.2rem;
+}
+
+ol {
+  list-style-type: none;
+  counter-reset: ordered;
+  margin-left: 20px;
+}
+
+.insctructions--steps {
+  margin: 2.8rem 1.2rem 2.6rem 1.2rem;
+}
+
+.insctructions--steps > li::before {
+  content: counter(ordered);
+  counter-increment: ordered;
+  float: left;
+  border-radius: 0.6rem;
+  width: 36px;
+  height: 36px;
+  text-align: center;
+  vertical-align: baseline;
+  margin-left: -1.2rem;
+  background-color: var(--orange-text);
+  color: #fff;
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  font-size: 2.4rem;
+  margin-right: 1.5rem;
+}
+
+.insctructions--steps > li {
+  color: var(--black-text);
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  margin: 1.2rem auto 1.2rem auto;
+  font-weight: 400;
+}
+
+.insctructions--steps > li > p {
+  margin-left: 4rem;
+}
+
+.bold--instructions {
+  color: var(--dark-gray-body);
+  font-weight: 700;
+}
 input[type="checkbox"] {
   position: absolute;
 }
@@ -193,6 +256,7 @@ input[type="checkbox"] {
   width: 22px;
   height: 22px;
 }
+
 .checkbox:checked + label {
   text-decoration: line-through;
 }
