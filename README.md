@@ -1,57 +1,45 @@
-<!-- Please update value in the {}  -->
+# Recipe Page
 
-<h1 align="center">{Your project name}</h1>
+Solution for a challenge from [Devchallenges.io](http://devchallenges.io)
 
-<div align="center">
-   Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
-</div>
+### [DEMO](https://)
 
-<div align="center">
-  <h3>
-    <a href="https://{your-demo-link.your-domain}">
-      Demo
-    </a>
-    <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
-      Solution
-    </a>
-    <span> | </span>
-    <a href="https://{your-url-to-the-challenge}">
-      Challenge
-    </a>
-  </h3>
-</div>
+### [SOLUTION](https://github.com/Nessvah/Recipe-page)
+
+### [CHALLENGE](https://devchallenges.io/challenges/OEKdUZ6xs0h99C38XVht)
 
 <!-- TABLE OF CONTENTS -->
 
 ## Table of Contents
 
-- [Overview](#overview)
-  - [Built With](#built-with)
-- [Features](#features)
-- [Contact](#contact)
-
+- [Recipe Page](#recipe-page)
+    - [DEMO](#demo)
+    - [SOLUTION](#solution)
+    - [CHALLENGE](#challenge)
+  - [Table of Contents](#table-of-contents)
+  - [Overview](#overview)
+    - [Built With](#built-with)
+  - [Features](#features)
+  - [Contact](#contact)
 
 <!-- OVERVIEW -->
 
 ## Overview
 
-![screenshot](https://user-images.githubusercontent.com/16707738/92399059-5716eb00-f132-11ea-8b14-bcacdc8ec97b.png)
+![mobile](./images/Recipe-page-mobile.png)
+![web-page](./images/recipe-page.png)
 
-Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
-
-- Where can I see your demo?
-- What was your experience?
-- What have you learned/improved?
-- Your wisdom? :)
+- It was a really great opportunity to practice layouts with grid property.
+- I also learned how we can costumise the list style from ordered and unordered lists.
+- I can notice how easier it is becoming to do pages with html and css.
 
 ### Built With
 
 <!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
 
-- [React](https://reactjs.org/)
-- [Vue.js](https://vuejs.org/)
-- [Tailwind](https://tailwindcss.com/)
+- HTML
+- CSS
+- FIGMA
 
 ## Features
 
@@ -62,7 +50,6 @@ This application/site was created as a submission to a [DevChallenges](https://d
 - [x] User story: This is a completed user stories
 - [ ] User story: This is a incompleted user stories
 - [ ] User story: This is a incompleted 2nd user stories
-
 
 ## Contact
 
