@@ -96,19 +96,19 @@ h1 {
 
 h2 {
   font-weight: 700;
-  font-size: 1.8rem;
+  font-size: clamp(1.8rem, 2vw, 2.4rem);
   color: var(--dark-gray-body);
 }
 
 h3 {
   font-weight: 400;
   font-style: italic;
-  font-size: 1.6rem;
+  font-size: clamp(1.6rem, 1.5vw, 1.8rem);
   color: var(--dark-gray-body);
 }
 
 label {
-  font-size: 1.4rem;
+  font-size: clamp(1.4rem, 1vw, 1.6rem);
   display: inline-block;
   font-family: "Montserrat", sans-serif;
   color: var(--dark-gray-body);
@@ -121,6 +121,10 @@ ol {
 
 input {
   margin: 0;
+}
+
+aside {
+  height: fit-content;
 }
 
 .subheading {
@@ -140,18 +144,17 @@ input {
 .pre-title {
   text-transform: uppercase;
   font-weight: 700;
-  font-size: 0.8rem;
+  font-size: clamp(0.8rem, 1vw, 1rem);
   color: var(--ligh-gray);
 }
 
 .servings {
   color: var(--orange-text);
   font-weight: 500;
-  font-size: 1rem;
+  font-size: clamp(1rem, 1vw, 1.4rem);
 }
 .icon {
   max-width: 100%;
-  margin-left: 4rem;
 }
 
 .recipe--info,
@@ -160,6 +163,18 @@ input {
   gap: 0.6rem;
   margin: 2.2rem auto 2.2rem auto;
   align-items: center;
+}
+
+.recipe--info {
+  display: flex;
+  flex-direction: row;
+  gap: 4rem;
+}
+
+.time--wrapper {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
 }
 .bold--text {
   font-weight: 700;
@@ -284,7 +299,7 @@ footer > p {
 
 /* TABLET */
 
-@media screen and (min-width: 481px) and (max-width: 770px) {
+@media screen and (min-width: 481px) and (max-width: 1000px) {
   .site--container {
     max-width: 90%;
     margin: 0 auto;
@@ -306,9 +321,84 @@ footer > p {
 
 /* LAPTOP + */
 
-@media screen and (min-width: 770px) {
+@media screen and (min-width: 1000px) {
   .site--container {
     max-width: 67%;
     margin: 0 auto;
+    display: grid;
+    grid:
+      "header header header" auto
+      "main   main   aside" 450px
+      "main   main    .  " 1fr
+      "footer footer footer" 150px
+      / auto auto 300px;
+
+    gap: 4rem;
+  }
+
+  header {
+    grid-area: header;
+  }
+
+  main {
+    grid-area: main;
+  }
+
+  aside {
+    grid-area: aside;
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    background: #ffffff;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    max-width: 80%;
+    margin-left: 6rem;
+  }
+
+  footer {
+    grid-area: footer;
+  }
+  .subheading {
+    max-width: 590px;
+    margin-left: 0;
+  }
+  .cake--image {
+    width: 100%;
+    height: auto;
+  }
+
+  .recipe--servings {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5.8rem;
+  }
+
+  .knife--icon {
+    width: 25px;
+  }
+
+  .icon {
+    width: 25px;
+    margin: 0;
+  }
+
+  .recipe--info {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+  }
+
+  .time--wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 1.4rem;
+    align-items: center;
+  }
+
+  .insctructions--steps > li {
+    margin-top: 4rem;
   }
 }
