@@ -32,8 +32,8 @@ Solution for a challenge from [Devchallenges.io](http://devchallenges.io)
 ![web-page](./images/recipe-page.png)
 
 - It was a really great opportunity to practice layouts with grid property.
-- I also learned how we can costumise the list style from ordered and unordered lists.
-- I can notice how easier it is becoming to do pages with html and css.
+- I also learned how we can customize the list style from ordered and unordered lists.
+- I can notice how easier it is becoming to do pages with HTML and CSS.
 
 ### Built With
 
