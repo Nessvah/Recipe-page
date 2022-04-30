@@ -2,11 +2,13 @@
 
 Solution for a challenge from [Devchallenges.io](http://devchallenges.io)
 
-### [DEMO](https://)
+### [DEMO](https://nessvah-recipepage.netlify.app)
 
 ### [SOLUTION](https://github.com/Nessvah/Recipe-page)
 
 ### [CHALLENGE](https://devchallenges.io/challenges/OEKdUZ6xs0h99C38XVht)
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/e540c782-75f9-495f-a9ff-bc2847c08d1d/deploy-status)](https://app.netlify.com/sites/nessvah-recipepage/deploys)
 
 <!-- TABLE OF CONTENTS -->
 
